@@ -1,1 +1,1 @@
-web: gunicorn Portfolio.wsgi
+gunicorn Portfolio:application --preload -b 0.0.0.0:5000 
