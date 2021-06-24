@@ -6,10 +6,88 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Home</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<style>
+
+    
+    .tag{<0p>
+    }
+    .ifot1{
+    Position: relative;
+    animation-name:ifot1;
+    animation-duration:1s;
+    animation-iteration-count:inf;
+    }
+    @keyframes ifot1{
+    0%{bottom:-60px ;}
+    100%{bottom:0px;}
+    }
+    
+    
+    
+    </style>
+
 </head>
 <body>
 
+
+
+
+
+<header>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow" aria-label="Twelfth navbar example">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse mx-3 navbar-collapse justify-content-md-center" id="navbarsExample10">
+            <ul class="navbar-nav ">
+              
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="{% url 'about' %}">About</a>
+             </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="{% url 'skills' %}">Skills</a>
+              </li>
+              <a class="navbar-brand" href="#"><img src="{% static 'logo.png' %}" width="270px" height="60px"></a>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'project' %}">Projects</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+            </li>
+           
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+</header>
+
 {% block content %}
+
+
+
+
+
+
+
+
+
+
 
 
 
