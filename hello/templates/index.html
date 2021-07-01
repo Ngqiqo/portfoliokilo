@@ -2,68 +2,50 @@
 {% load static %}
 {% block content %}
 
+<style>
+
+  body{
+  background-image: url('{% static 'desi.png' %}');"
+   }
+</style>
+  
 
 
+<br><br><br><br>
+<div class="container">
 
+  <div class="row">
 
-<div class="container-fluid">
+    <div class="col-6  my-5">
 
-
-    <div class="row">
-    
-   <div class="col-12 text-center">
    
-   <div class="">
-   <img src="{% static 'desi.png' %}" width="100%" height="600px">
-   </div>
-   </div>
-   
-    
+      <div class="alert my-5">
+      
+
+        <h1 class="display-3 text-light"><b><img src="{% static 'text12.png' %}" width="450px" height="70px"></a>
+        </b></h1>
+        <br>
+        <h4 class="display-7 text-secondary">Freelance UI/UX designer </h4>
+        <h4 class="display-7 text-secondary">Full stack web developer </h4>
+        <h4 class="display-7 text-secondary">And Graphic designer </h4>
+<br>
+
+<button type="button" class="btn mx-2 btn-lg btn-outline-primary" disabled>Contact me</button>
+<button type="button" class="btn btn-lg btn-outline-primary"><a class="nav-link" href="{% url 'about' %}">About me</a></button>
+
+
+      
+      </div>
+         
+
+
     </div>
-    
-    
-   
-   
-   
-   
-   
-    <div class="row">
        
    
-     <div class="col-sm-10 col-md-4 col-lg-4">
-       <span class="ifot1">
-         <div class="alert">
-             <div class="text-dark text-center">
-               <h3 cl>Developer</h3>
-             </div>
-           </div>
-           </span>
-     </div>
-     
-     <div class="col-sm-10 col-md-4 col-lg-4">
-      <span class="ifot1">
-        <div class="alert">
-            <div class="text-dark text-center">
-              <h3>Designer</h3>
-            </div>
-          </div>
-          </span>
-    </div>
-    <div class="col-sm-10 col-md-4 col-lg-4">
-     <span class="ifot1">
-       <div class="alert">
-           <div class="text-dark text-center">
-             <h3>Technician</h3>
-           </div>
-         </div>
-         </span>
-   </div>
-     </div>
+  </div>
      
    
-   
-   
-   </div>
+</div>
    
    
    
