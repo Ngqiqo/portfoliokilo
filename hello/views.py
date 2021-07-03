@@ -20,10 +20,6 @@ def skills(request):
     # return HttpResponse('Hello from Python!')
     return render(request, "skills.html")
 
-def projects(request):
-    # return HttpResponse('Hello from Python!')
-    return render(request, "projects.html")
-
 
 def db(request):
 

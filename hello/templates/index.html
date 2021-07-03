@@ -7,6 +7,18 @@
   body{
   background-image: url('{% static 'desi.png' %}');"
    }
+
+
+.ifot1{
+Position: relative;
+animation-name:ifot1;
+animation-duration:1s;
+animation-iteration-count:inf;
+}
+@keyframes ifot1{
+0%{left:-60px ;}
+100%{left:0px;}
+}
 </style>
   
 
@@ -16,22 +28,21 @@
 
   <div class="row">
 
-    <div class="col-6  my-5">
+    <div class="col-sm-12 col-md-6 col-lg-6  my-5">
 
    
-      <div class="alert my-5">
+      <div class="alert ifot1 my-5">
       
 
         <h1 class="display-3 text-light"><b><img src="{% static 'text12.png' %}" width="450px" height="70px"></a>
         </b></h1>
         <br>
-        <h4 class="display-7 text-secondary">Freelance UI/UX designer </h4>
-        <h4 class="display-7 text-secondary">Full stack web developer </h4>
-        <h4 class="display-7 text-secondary">And Graphic designer </h4>
+        <h4 class="display-7 text-secondary">Freelance Web Designer & Developer based in Johannesburg, South Africa.
+          Highly experienced in designing & developing custom Django websites.</h4>
 <br>
 
-<button type="button" class="btn mx-2 btn-lg btn-outline-primary" disabled>Contact me</button>
-<button type="button" class="btn btn-lg btn-outline-primary"><a class="nav-link" href="{% url 'about' %}">About me</a></button>
+
+<button type="button" class="btn btn-md btn-outline-primary"><a class="nav-link" href="{% url 'about' %}">More about me</a></button>
 
 
       
