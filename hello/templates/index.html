@@ -1,13 +1,19 @@
 {% extends "base.html" %}
 {% load static %}
 {% block content %}
-
 <style>
 
-  body{
-  background-image: url('{% static 'desi.png' %}');"
-   }
 
+
+
+
+.red{
+
+  Position: relative;
+  z-index: 1;
+  top: -85px;
+  
+}
 
 .ifot1{
 Position: relative;
@@ -16,52 +22,254 @@ animation-duration:1s;
 animation-iteration-count:inf;
 }
 @keyframes ifot1{
-0%{left:-60px ;}
-100%{left:0px;}
+0%{bottom:-60px ;}
+100%{bottom:0px;}
 }
+
+.ifot2{
+Position: relative;
+animation-name:ifot2;
+animation-duration:6s;
+animation-iteration-count:inf;
+}
+@keyframes ifot2{
+0%{right:-60px ;}
+100%{right:0px;}
+}
+
+
+
 </style>
+
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+<div class="carousel-inner">
+<div class="carousel-item active" data-bs-interval="10000">
+<img src="{% static 'k.png' %}" width="800" height="550" class="bd-placeholder-img-lg d-block w-100"  >
+
+<div class="carousel-caption text-left d-none d-md-block">
+<h5 class="display-3 text-light"><strong>Hi, Im Ngqiqo.</strong></h5>
+<h2 class=" text-light">
+  Creative web designer and developer.<br>
+  Specializing in taylor made designs
   
-
-
-<br><br><br><br>
-<div class="container">
-
-  <div class="row">
-
-    <div class="col-sm-12 col-md-6 col-lg-6  my-3">
-
+</h2>
    
-      <div class="alert ifot1 my-5">
-      
+   
 
-        <h1 class="display-3 text-light"><b><img src="{% static 'text12.png' %}" width="450px" height="70px"></a>
-        </b></h1>
-        <br>
-        <h4 class="display-7 text-secondary">Freelance Web Designer & Developer based in Johannesburg, South Africa.
-          Highly experienced in designing & developing custom Django websites.</h4>
+
+
+   <h3 class=" text-secondary">If you're a business seeking a web presence or a
+   <br> looking to hire, contact me here.</h3>
+   <br>
+<button type="button" class="btn btn-lg btn-outline-light">Get in touch</button>
 <br>
-
-
-<button type="button" class="btn btn-md btn-outline-primary"><a class="nav-link" href="{% url 'about' %}">More about me</a></button>
-
-
-      
-      </div>
-         
-
-
-    </div>
-       
-   
-  </div>
-     
-   
+<br>  <br>
+<br><br>
 </div>
-   
-   
-   
-   
-   
+</div>
+</div>
+</div>
+
+
+
+<div class="container">
+<div class="row">
+
+
+<div class="col-3 text-center">
+<div class="alert ifot1">
+<h3 class="text-center">Front-End</h3>
+</h1>
+
+<p class="text-center text-secondary"><b>Clean, morden designs - optimased for converting users to customers.</b></p>
+
+<button type="button" class="btn my-2 btn-md btn-outline-dark">Get Started</a></button>
+  </div> </div>
+
+
+
+<div class="col-3 text-center">
+  <div class="alert ifot1">
+  <h3 class="text-center">Back-End</h3>
+  </h1>
+  
+  <p class="text-center text-secondary"><b>
+    Fast and powerful django back-ends powerd by python.
+    
+  </b></p>
+  
+  <button type="button" class="btn my-2 btn-md btn-outline-dark">Get Started</a></button>
+   </div> </div>
+
+ 
+<div class="col-3 text-center">
+  <div class="alert ifot1">
+  <h3 class="text-center">Graphics</h3>
+  </h1>
+  
+  <p class="text-center text-secondary"><b>
+    Fast and powerful django framework powerd by python.
+    
+  </b></p>
+  
+  
+   <button type="button" class="btn my-2 btn-md btn-outline-dark">Get Started</a></button>
+  </div> </div>
+
+  <div class="col-3 text-center">
+    <div class="alert ifot1">
+    <h3 class="text-center">Audits</h3>
+    </h1>
+    
+    <p class="text-center text-secondary"><b>
+      Fast and powerful django back-ends powerd by python.
+      
+    </b></p>
+    
+    <button type="button" class="btn my-2 btn-md btn-outline-dark">Get Started</a></button>
+   </div> </div>
+
+</div>
+
+<div class="row my-2">
+
+
+  <div class="col-12">
+<h1 class="display-1 text-center"><img src="{% static 'de.png' %}" width="100%" height="6px" class="bd-placeholder-img-lg d-block w-100"  ></h1>
+
+  </div>
   
 
+</div>
+
+
+
+
+
+
+
+<div class="row my-4">
+
+  <div class="col-6">
+    <br>
+    <br>
+    <br>
+    <div class="alert my-5">
+      <h4 class="display-2 text-dark">About me</h4>
+      <h3 class=" text-secondary">"I am an excellent web designer and faultless technician. I'm a pleasure to work with, great value for money and will always go the extra mile when necessary."</h3><br>  <br>
+        <button type="button" class="btn btn-lg text-light bg-dark">View Portfolio</button>
+        <button type="button" class="btn btn-lg text-light bg-dark">Work with me</button>
+        <button type="button" class="btn btn-lg text-light bg-dark">Contact me</button>
+      </div>
+  
+      </div>
+
+  
+  <div class="col-6">
+  <br>
+  <br>
+  <br>
+    <img src="{% static 'pics2.png' %}" width="100%" height="550px" class="bd-placeholder-img-lg d-block w-100 ifot2 "  >
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row my-4">
+  <div class="col-12">
+    <h4 class="display-2 text-center text-dark">What I do</h4>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+<div class="row my-4">
+  <div class="col-4">
+
+    <img src="{% static 'FIRST.png' %}" width="100%" height="350px" class="bd-placeholder-img-lg d-block w-100 rounded-3 shadow "  >
+
+    
+    <h1 class="red  text-center"><button type="button" class="btn btn-lg btn-outline-secondary">Request quote</button></h1>
+  </div>
+
+
+  <div class="col-4">
+    <img src="{% static 'SECOND.png' %}" width="100%" height="550px" class="bd-placeholder-img-lg d-block w-100 rounded-3 shadow"  >
+    <h1 class="red text-center"><button type="button" class="btn btn-lg btn-outline-secondary">Request quote</button></h1>
+  </div>
+
+
+
+  <div class="col-4">
+    <img src="{% static 'THIRD.png' %}" width="100%" height="700px" class="bd-placeholder-img-lg d-block w-100 rounded-3 shadow"  >
+    <h1 class="red text-center"><button type="button" class="btn btn-lg btn-outline-secondary">Request quote</button></h1>
+  </div>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div> 
+
+
+
+
+<img src="{% static 'base.png' %}" width="100%" height="350px" class="bd-placeholder-img-lg d-block w-100 "  >
+
+
+
+
+  
 {% endblock %}
