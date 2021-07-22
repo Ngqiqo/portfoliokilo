@@ -19,6 +19,7 @@ urlpatterns = [
     path("about/", hello.views.about, name="about"),
     path("contactt/", hello.views.contact, name="contact"),
     path("skills/", hello.views.skills, name="skills"),
+     path("port/", hello.views.port, name="port"),
     path("db/", hello.views.db, name="db"),
     path("admin/", admin.site.urls),
 ]

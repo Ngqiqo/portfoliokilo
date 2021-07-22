@@ -2,146 +2,72 @@
 {% load static %}
 {% block content %}
 
+<style>
+body {
+background: url("/static/desi1.png");
+}
+</style>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br><br><br><br>
+<br><br>
 <div class="container">
-
   <div class="row">
 
-    <div class="col-sm-12 col-md-6  col-lg-6">
-      <div class="alert my-5">
-        <h4 class="display-2 ">About me</h4>
-        <h5 class=" text-secondary">My name is Ngqiqo. I'm a web designer and developer based in Johannesburg, SA.
+    <div class="col-sm-12 col-md-12  col-lg-3">
+      <div class="alert text-left">
+        <h4 class="display-3 text-left">About</h4>
+        <h5 class=" text-secondary">
+       I am a 24 year old creative full-stack web developer currently based in JHB.
+       I volunter at a local internet cafe during the day doing mostly graphic design and technical support related work. I also do a lot of freelance web related jobs like web design, digital maketing and web auditing when I'm not working.
 
-          During the day I’m the lead developer at Wawa Web Solutions, a local web development agency. During the evenings I spend my time working on freelance projects and building my own products.
-          
-          My most recent project is called Freeware. It’s a simple yet powerful editorial calendar for free software.  </div>
+        </h5></div>
     </div>
        
    
 
-    <div class="col-sm-12 col-md-6  col-lg-6 my-4">
-        <img src="{% static 'gun.png' %}" width="100%" height="400px">
+    <div class="col-sm-12 col-md-12 col-lg-6">
+      <div class="">
+        <img src="{% static 'flowers.png' %}" width="100%" height="470px">
+     </div> 
+      </div>
+         
+      <div class="col-sm-12 col-md-12  col-lg-3">
+        <div class="alert text-right">
+          <h4 class="display-3 text-right">Skills</h4>
+          <h5 class=" text-secondary">
+         I am a web developer and graphic designer who is passionate about building custom made, modern and responsive websites and web applications. My website are built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible. 
+          </h5></div>
       </div>
          
 
 
 
-
   </div>
      
 
 
+<div class=" d-none d-md-block">
 
-
-
-
-
-
-
-
-
-
-  <div class="row">
-
-
-
-    
-    <div class="col-sm-12 col-md-6  col-lg-6 my-4">
-        <img src="{% static 'type.jpg' %}" width="100%" height="300px">
-      </div>
-       
-
+  <div class="row" style="margin-top: -130px;">
     <div class="col-sm-12 col-md-6  col-lg-6">
-      <div class="alert my-5">
-        <h4 class="display-2 ">What I do</h4>
-        <h5 class=" text-secondary">There’s nothing I enjoy more than designing and developing good websites for nice people. It really is that simple.
-
-          I’ve spent many years trying to perfect what I do and while I’ll never be perfect, I do my best to come close.
-          
-          If you’ve got a project you’d like to work on with me just get in touch and we can get to work!     </div>
+      <div class="alert text-left">
+        <h4 class="display-3 ">Intrests</h4>
+        <h5 class=" text-secondary">There’s nothing I enjoy more than designing and <br> developing good websites for nice people. It really is that<br> simple.
+          I’ve spent many years trying to perfect what I do and <br>while I’ll never be perfect, I do my best to come close.
+          If you’ve<br> got a project you’d like to work on with me just get in touch and we can get to work!     </div>
     </div>
        
-   
-
-
-
-
-
-
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-  <div class="row">
-
+      
     <div class="col-sm-12 col-md-6  col-lg-6">
-      <div class="alert my-5">
-        <h4 class="display-2 ">Get in touch</h4>
-        <h5 class=" text-secondary">Specializing in custom theme development. If you're a business seeking a web presence or are looking to hire, contact me here.
-          <a class="" href="{% url 'contact' %}">Contact</a>
+      <div class="alert text-right">
+        <h4 class="display-3 ">Academics</h4>
+        <h5 class=" text-secondary">I am a qualified I.T technician and System Anylist.<br>
+           I'm also a self taught Python developer that specialises <BR>in custom made Django website application development<br> and graphic design.I am an excellent web designer and faultless technician, great value for money and will always go the extra mile when necessary.
         </div>
     </div>
-       
-   
-
-    <div class="col-sm-12 col-md-6  col-lg-6 my-4">
-        <img src="{% static 'Clean.jpg' %}" width="100%" height="300px">
-      </div>
-
-
-
-
   </div>
-     
+
+</div>
 
 
 
@@ -152,16 +78,33 @@
 
 
 
+<div class="d-block  d-md-none">
+
+  <div class="row">
+    <div class="col-sm-12 col-md-6  col-lg-6">
+      <div class="alert text-left">
+        <h4 class="display-3 ">Intrests</h4>
+        <h5 class=" text-secondary">There’s nothing I enjoy more than designing and <br> developing good websites for nice people. It really is that<br> simple.
+          I’ve spent many years trying to perfect what I do and <br>while I’ll never be perfect, I do my best to come close.
+          If you’ve<br> got a project you’d like to work on with me just get in touch and we can get to work!     </div>
+    </div>
+       
+      
+    <div class="col-sm-12 col-md-6  col-lg-6">
+      <div class="alert text-right">
+        <h4 class="display-3 ">Academics</h4>
+        <h5 class=" text-secondary">I am a qualified I.T technician and System Anylist.<br>
+           I'm also a self taught Python developer that specialises <BR>in custom made Django website application development<br> and graphic design.I am an excellent web designer and faultless technician, great value for money and will always go the extra mile when necessary.
+        </div>
+    </div>
+  </div>
+</div>
 
 
 
 
 
-
-
-
-
-
+<br><br><br>
 
 
    

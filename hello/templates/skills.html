@@ -2,126 +2,119 @@
 {% load static %}
 {% block content %}
 
-<style>
+<div class="d-none d-md-block ">
+<img src="{% static 'head2.png' %}" width="100%" height="550px">
+</div>
 
 
-     .ifot2{
-Position: relative;
-animation-name:ifot1;
-animation-duration:1s;
-animation-iteration-count:inf;
-}
-@keyframes ifot1{
-0%{right:-80px ;}
-100%{right:0px;}
-}
-  </style>
-
-
+<div class="d-block my-3 d-md-none ">
+<img src="{% static 'heads.png' %}" width="100%" height="200px">
+</div>
+<br>
 
 
 
 <div class="container">
-
-    <br>
-    <div class="row">
-
-        <div class="col-sm-12 col-md-5 col-lg-5">
-
-          <div class="alert my-5">
-            <h4 class="display-1">Web Design</h4>
-            <h3 class=" text-secondary">My approach to website design is to create a website that strengthens your company’s brand while ensuring ease of use and simplicity for your audience.</h3>
-            <button type="button" class="btn btn-md btn-outline-dark text-dark">View Portfolio</a></button>
-            <br>
-          <br>
-
-          <img src="{% static 'ht.png' %}"  width="50px" height="50px" class="mx-2 rounded">
-          <img src="{% static 'css.png' %}"  width="50px" height="50px" class="mx-2 rounded">
-          <img src="{% static 'images.png' %}" width="50px" height="50px" class="mx-2 rounded">
-          <img src="{% static 'bs.png' %}" width="50px" height="50px" class="mx-2 rounded">
-          <img src="{% static 'py.png' %}"  width="50px" height="50px" class="mx-2 rounded">
-          <img src="{% static 'dj.png' %}"  width="50px" height="50px" class="mx-2 rounded">
-          
-        </div>
-           
-    </div>
-    
-        <div class="col-sm-12 col-md-7 col-lg-7 ifot2 text-center my-4">
-            <img src="{% static 'mmm.png' %}" width="100%" height="500px">
-          </div>
-             
-    
-    
-    
-    
-      </div>
-         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="row my-4">
+<div class="col-12">
+  <h2 class="text-center  text-secondary border-3 display-3"><b>This is just a few of my skills</b></h2>
+</div>
 </div>
 
 
 
-
-
-
-
-
-
-
-<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-  <div class="carousel-item active" data-bs-interval="10000">
-  <img src="{% static 'back1.png' %}" width="800" height="550" class="bd-placeholder-img-lg d-block w-100"  >
+<div class="row my-5">
+    <div class="col-sm-10 col-md-3 col-lg-3 text-center">
+    <div class="alert zoom">
+    <h2 class="text-center"><b>Front-End</b></h2>
+    </h1>
+    <h5 class="text-center text-secondary"><b>
+      HTML5 / CSS3 / JavaScript
+    </b></h5>
+    <button type="button" class="btn my-2 btn-md btn-dark">Get Started</a></button>
+    </div> </div>
+    
+    
+    
+    <div class="col-sm-10 col-md-3 col-lg-3 text-center">
+      <div class="alert zoom">
+        <h2 class="text-center"><b>Back-End</b></h2>
+      </h1>
+      
+      <h5 class="text-center text-secondary"><b>
+      Python / Django / Json  
+      </b></h5>
+      <button type="button" class="btn my-2 btn-md btn-dark">Get Started</a></button>
+      </div> </div>
+    
+     
+      <div class="col-sm-10 col-md-3 col-lg-3 text-center">
+        <div class="alert zoom">
+        <h2 class="text-center "><b>Frameworks</b></h2>
+      </h1>
+      
+      <h5 class="text-center text-secondary"><b>
+      Jquery / Bootstrap / Anime 
+      </b></h5>
+      
+      
+      <button type="button" class="btn my-2 btn-md btn-dark">Get Started</a></button>
+    </div> </div>
+    
+    <div class="col-sm-10 col-md-3 col-lg-3 text-center">
+      <div class="alert zoom">
+          <h2 class="text-center"><b>Design</b></h2>
+        </h1>
+       
+        <h5 class="text-center text-secondary"><b>
+          Illustrator/ Photoshop/ GIMP
+          
+        </b></h5>
+        
+        <button type="button" class="btn my-2 btn-md btn-dark">Get Started</a></button>
+      </div> </div>
+    
+    </div>
   
-  <div class="carousel-caption text-left d-none d-md-block">
- 
-  
-  <br>
-  <br>  <br>
-  <br><br>
-  </div>
-
-
-  <div class="carousel-caption text-right d-none d-md-block">
- 
-  
-  
-    <h4 class="display-4 text-light">Web Design</h4>
-    <h3 class=" text-secondary">My approach to website <br>design is to create a <br>website that strengthens <br>your company’s brand while ensuring <br>ease of use and simplicity for your audience.</h3>
-    <br>
- <button type="button" class="btn btn-lg btn-outline-light">Get in touch</button>
-
- </div>
-  </div>
-  </div>
-  </div>
 
 
 
+<div class="row my-2">
+<div class="col-sm-12 col-md-8 col-lg-8 mx-auto">
+
+<h1 class="dispalay-3 text-secondary text-center">
+  "Im not only a great designer and developer, Im also a problem solver who always delivers an exceptional quality of work."
+</h1>
+</div>
+</div>
+
+<br>
 
 
 
+    <div class="row my-5">
+      <div class="col-sm-11 col-md-4 col-lg-4">
+        <img src="{% static 'FIRST.png' %}" width="100%" height="350px" class="bd-placeholder-img-lg d-block w-100">
+        <h1 class="red  text-center"><button type="button" class="btn btn-lg btn-outline-secondary">Request quote</button></h1>
+      </div>
+    
+    
+      <div class="col-sm-11 col-md-4 col-lg-4">
+        <img src="{% static 'SECOND.png' %}" width="100%" height="550px" class="bd-placeholder-img-lg d-block w-100 ">
+        <h1 class="red text-center"><button type="button" class="btn btn-lg btn-outline-secondary">Request quote</button></h1>
+      </div>
+    
+    
+      <div class="col-sm-11 col-md-4 col-lg-4">
+        <img src="{% static 'THIRD.png' %}" width="100%" height="700px" class="bd-placeholder-img-lg d-block w-100 "  >
+        <h1 class="red text-center"><button type="button" class="btn btn-lg btn-outline-secondary">Request quote</button></h1>
+      </div>
+    
+    
+    
+    </div>
 
+</div>
 
 
 

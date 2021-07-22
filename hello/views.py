@@ -21,6 +21,12 @@ def skills(request):
     return render(request, "skills.html")
 
 
+
+def port(request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "port.html")
+
+
 def db(request):
 
     greeting = Greeting()
